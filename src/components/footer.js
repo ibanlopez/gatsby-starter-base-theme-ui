@@ -1,6 +1,5 @@
 /** @jsx jsx */
 import { Styled, jsx } from "theme-ui"
-import { Link } from "gatsby"
 import React from "react"
 
 const Footer = () => {
