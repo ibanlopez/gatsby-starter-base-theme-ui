@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Starter for Strapi`,
-    description: `Kick off your next, great Gatsby and Strapi project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
+    title: `Gatsby starter Theme UI`,
+    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
     author: `@ibanlopez`,
   },
   plugins: [
@@ -19,7 +19,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
+        name: `gatsby-starter-theme-ui`,
         short_name: `starter`,
         start_url: `/`,
         background_color: `#663399`,
