@@ -20,18 +20,18 @@
 *
 * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
-import { deep } from "@theme-ui/presets"
+import { base } from "@theme-ui/presets"
 import merge from "lodash.merge"
 // lodash.merge will deeply merge custom values with the
 // blog theme's defaults
 
-export default merge({}, deep, {
+export default merge({}, base, {
   colors: {
-    ...deep,
+    ...base,
     // Here you can add your own theme colors or override existent theme preset colors
   },
   styles: {
-    ...deep.styles,
+    ...base.styles,
     // Here you can add your own styles or override existent preset styles
   },
 })
