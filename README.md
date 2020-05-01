@@ -5,25 +5,38 @@
   </a>
 </p>
 <h1 align="center">
-  Gatsby's frontend Strapi starter
+  Gatsby starter base theme ui
 </h1>
 
-This is a WIP.
+Repo to spin up a base starter with theme-ui and flex structure.
 
-## Steps to set starter:
+## Setup
 
-- [x] Set up project's custom data
+Clone repo
 
-- [x] Delete or comment out unnecessary components
+```shell
+  # Clone repository
+  git clone https://github.com/ibanlopez/gatsby-starter-base-theme-ui.git
 
-- [ ] Delete unnecesary pages
+  # Change directory
+  cd gatsby-starter-base-theme-ui
 
-- [x] Delete global styles
+  # Delete local git folder
+  rm -rf .git
 
-- [x] Install gatsby-plugin-theme-ui and configuration
+  # Install dependencies
+  npm install
 
-- [ ] Continue from here...
+  # Init local git repo
+  git init
+```
 
-## TODO
+Now create a remote repo and link your local with it.
 
-- Document installation proccess.
+## To start
+
+From here, use Gatsby to carry on with your development.
+
+```shell
+  gatsby develop
+```
