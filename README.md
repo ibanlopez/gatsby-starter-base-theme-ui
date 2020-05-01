@@ -10,6 +10,8 @@
 
 Repo to spin up a base starter with theme-ui and flex structure.
 
+([Starter DEMO](https://test-gatsby-starter-theme-ui.netlify.app/)
+
 ## Setup
 
 Clone repo
@@ -40,5 +42,7 @@ From here, use Gatsby to carry on with your development.
 ```shell
   gatsby develop
 ```
+
+## Deploy it and see it in action
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/ibanlopez/gatsby-starter-base-theme-ui)
