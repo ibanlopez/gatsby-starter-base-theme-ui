@@ -10,7 +10,7 @@
 
 Repo to spin up a base starter with theme-ui and flex structure.
 
-([Starter DEMO](https://test-gatsby-starter-theme-ui.netlify.app/)
+[Starter DEMO](https://test-gatsby-starter-theme-ui.netlify.app/)
 
 ## Setup
 
