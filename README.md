@@ -49,7 +49,7 @@ See: [Gatsby docs](https://www.gatsbyjs.org/docs/quick-start)
 
 ## Customize starter
 
-Thanks to [Theme UI](https://theme-ui.com/) you can customize the starter look and feel in a breeze:
+Thanks to [Theme UI](https://theme-ui.com/) you can customize the starter's look and feel in a breeze:
 
 Go to file /src/gatsby-plugin-theme-ui/index.js inside the repo and you'll find all the instructions to customize your colors, presets, modes, etc.
 

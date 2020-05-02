@@ -29,7 +29,7 @@ export default merge({}, base, {
   colors: {
     ...base,
     // Here you can add your own theme colors or override existent theme preset colors
-    // i.e. let's add theme mode dark (assuming base as preset imported). You'll have to invert mode colors depending on theme preset imported.
+    // i.e. let's add theme mode dark (assuming base as imported preset). You'll have to invert mode colors depending on theme imported preset.
     modes: {
       dark: {
         text: "#fff",
@@ -51,7 +51,7 @@ export default merge({}, base, {
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * *
  *
- *  If you prefer not to import any preset theme styles, comment out
+ *  If you prefer not to import any theme preset styles, comment out
  *  import statements from above, uncomment line below and create your
  *  own object of styles and colors for your site.
  *
