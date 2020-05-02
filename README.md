@@ -41,9 +41,17 @@ Now create a remote repo and link your local with it.
 
 From here, use Gatsby to carry on with your development.
 
+See: [Gatsby docs](https://www.gatsbyjs.org/docs/quick-start)
+
 ```shell
   gatsby develop
 ```
+
+## Customize starter
+
+Thanks to [Theme UI](https://theme-ui.com/) you can customize the starter look and feel in a breeze:
+
+Go to file /src/gatsby-plugin-theme-ui/index.js inside the repo and you'll find all the instructions to customize your colors, presets, modes, etc.
 
 ## Deploy it and see it in action
 
