@@ -2,14 +2,14 @@
 import { Styled, jsx } from "theme-ui"
 import React from "react"
 
-import Icon from './icons'
+import Icon from "./icons"
 
 const Footer = () => {
   return (
     <footer
       sx={{
         width: `100%`,
-        backgroundColor: `primary`,
+        backgroundColor: `secondary`,
         mt: `auto`,
       }}
     >
@@ -20,7 +20,7 @@ const Footer = () => {
           py: 4,
           px: 3,
           display: `flex`,
-          justifyContent: `space-between`
+          justifyContent: `space-between`,
         }}
       >
         <Styled.p sx={{ color: `background`, m: 0 }}>
@@ -34,11 +34,11 @@ const Footer = () => {
           </Styled.a>
         </Styled.p>
         <Styled.a
-            sx={{ color: `background` }}
-            href="https://github.com/ibanlopez/gatsby-starter-base-theme-ui"
-          >
-            <Icon IconName="github" />
-          </Styled.a>
+          sx={{ color: `background` }}
+          href="https://github.com/ibanlopez/gatsby-starter-base-theme-ui"
+        >
+          <Icon IconName="github" />
+        </Styled.a>
       </div>
     </footer>
   )

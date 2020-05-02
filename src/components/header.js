@@ -1,39 +1,60 @@
 /** @jsx jsx */
-import { Styled, jsx } from "theme-ui"
+import { Styled, useColorMode, jsx } from "theme-ui"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import React from "react"
 
-const Header = ({ siteTitle }) => (
-  <header
-    sx={{
-      width: `100%`,
-      backgroundColor: `primary`,
-      marginBottom: `4`,
-    }}
-  >
-    <div
+import Icon from "./icons"
+
+const Header = ({ siteTitle }) => {
+  const [colorMode, setColorMode] = useColorMode()
+
+  const newColorMode = colorMode === "light" ? "dark" : "light"
+
+  return (
+    <header
       sx={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        py: 4,
-        px: 3,
+        width: `100%`,
+        backgroundColor: `secondary`,
+        marginBottom: `4`,
       }}
     >
-      <Styled.h1 sx={{ margin: 0 }}>
-        <Link
-          to="/"
+      <div
+        sx={{
+          margin: `0 auto`,
+          maxWidth: 960,
+          py: 4,
+          px: 3,
+          display: `flex`,
+          justifyContent: `space-between`,
+        }}
+      >
+        <Styled.h1 sx={{ margin: 0 }}>
+          <Link
+            to="/"
+            sx={{
+              color: `background`,
+              textDecoration: `none`,
+            }}
+          >
+            {siteTitle}
+          </Link>
+        </Styled.h1>
+        <button
+          onClick={(e) => {
+            setColorMode(newColorMode)
+          }}
           sx={{
-            color: `background`,
-            textDecoration: `none`,
+            background: "transparent",
+            border: "transparent",
           }}
         >
-          {siteTitle}
-        </Link>
-      </Styled.h1>
-    </div>
-  </header>
-)
+          <Icon IconName={newColorMode} />
+        </button>
+      </div>
+    </header>
+  )
+}
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
